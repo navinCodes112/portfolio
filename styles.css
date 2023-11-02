@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Soothing Light Gray */
+    color: #000; /* Black Text */
+}
+
+header {
+    background-color: #A7D129; /* Light Green */
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #FFD700; /* Yellow */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700; /* Yellow */
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #A7D129; /* Light Green */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #A7D129; /* Light Green */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add hover effect to sections */
+section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Add a background color and style for list items */
+li::before {
+    content: '●';
+    color: #A7D129; /* Light Green */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #A7D129; /* Light Green */
+    color: #FFD700; /* Yellow */
+    font-size: 14px;
+}
